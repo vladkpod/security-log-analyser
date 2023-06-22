@@ -1,0 +1,49 @@
+2023-06-22 15:06:44,426 - DEBUG - Parsed log entry:
+2023-06-22 15:06:44,426 - DEBUG -   IP Address: 192.168.0.1
+2023-06-22 15:06:44,426 - DEBUG -   Date and Time: 2023-06-01 10:15:30
+2023-06-22 15:06:44,426 - DEBUG -   Log Message: User login successful
+2023-06-22 15:06:44,426 - DEBUG -   Raw Entry: 192.168.0.1 - 2023-06-01 10:15:30 - User login successful
+2023-06-22 15:06:44,426 - DEBUG - 
+2023-06-22 15:06:44,426 - DEBUG - Parsed log entry:
+2023-06-22 15:06:44,426 - DEBUG -   IP Address: 192.168.0.2
+2023-06-22 15:06:44,426 - DEBUG -   Date and Time: 2023-06-01 10:16:45
+2023-06-22 15:06:44,426 - DEBUG -   Log Message: Access denied: Invalid credentials
+2023-06-22 15:06:44,426 - DEBUG -   Raw Entry: 192.168.0.2 - 2023-06-01 10:16:45 - Access denied: Invalid credentials
+2023-06-22 15:06:44,426 - DEBUG - 
+2023-06-22 15:06:44,426 - DEBUG - Parsed log entry:
+2023-06-22 15:06:44,426 - DEBUG -   IP Address: 192.168.0.3
+2023-06-22 15:06:44,426 - DEBUG -   Date and Time: 2023-06-01 10:17:15
+2023-06-22 15:06:44,426 - DEBUG -   Log Message: SQL injection attempt detected
+2023-06-22 15:06:44,426 - DEBUG -   Raw Entry: 192.168.0.3 - 2023-06-01 10:17:15 - SQL injection attempt detected
+2023-06-22 15:06:44,427 - DEBUG - 
+2023-06-22 15:06:44,427 - DEBUG - Parsed log entry:
+2023-06-22 15:06:44,427 - DEBUG -   IP Address: 192.168.0.4
+2023-06-22 15:06:44,427 - DEBUG -   Date and Time: 2023-06-01 10:18:30
+2023-06-22 15:06:44,427 - DEBUG -   Log Message: User login successful
+2023-06-22 15:06:44,427 - DEBUG -   Raw Entry: 192.168.0.4 - 2023-06-01 10:18:30 - User login successful
+2023-06-22 15:06:44,427 - DEBUG - 
+2023-06-22 15:06:44,427 - DEBUG - Parsed log entry:
+2023-06-22 15:06:44,427 - DEBUG -   IP Address: 192.168.0.5
+2023-06-22 15:06:44,427 - DEBUG -   Date and Time: 2023-06-01 10:20:00
+2023-06-22 15:06:44,427 - DEBUG -   Log Message: Access denied: Unauthorized IP address
+2023-06-22 15:06:44,427 - DEBUG -   Raw Entry: 192.168.0.5 - 2023-06-01 10:20:00 - Access denied: Unauthorized IP address
+2023-06-22 15:06:44,427 - DEBUG - 
+2023-06-22 15:06:44,427 - DEBUG - Parsed log entry:
+2023-06-22 15:06:44,427 - DEBUG -   IP Address: 192.168.0.6
+2023-06-22 15:06:44,427 - DEBUG -   Date and Time: 2023-06-01 10:21:30
+2023-06-22 15:06:44,427 - DEBUG -   Log Message: User login successful
+2023-06-22 15:06:44,427 - DEBUG -   Raw Entry: 192.168.0.6 - 2023-06-01 10:21:30 - User login successful
+2023-06-22 15:06:44,427 - DEBUG - 
+2023-06-22 15:06:44,427 - DEBUG - Parsed log entry:
+2023-06-22 15:06:44,427 - DEBUG -   IP Address: 192.168.0.7
+2023-06-22 15:06:44,427 - DEBUG -   Date and Time: 2023-06-01 10:25:45
+2023-06-22 15:06:44,427 - DEBUG -   Log Message: User login successful
+2023-06-22 15:06:44,427 - DEBUG -   Raw Entry: 192.168.0.7 - 2023-06-01 10:25:45 - User login successful
+2023-06-22 15:06:44,427 - DEBUG - 
+2023-06-22 15:06:44,427 - DEBUG - Parsed log entry:
+2023-06-22 15:06:44,427 - DEBUG -   IP Address: 192.168.0.8
+2023-06-22 15:06:44,427 - DEBUG -   Date and Time: 2023-06-01 10:26:10
+2023-06-22 15:06:44,427 - DEBUG -   Log Message: Access denied: Account locked
+2023-06-22 15:06:44,427 - DEBUG -   Raw Entry: 192.168.0.8 - 2023-06-01 10:26:10 - Access denied: Account locked
+2023-06-22 15:06:44,427 - DEBUG - 
+2023-06-22 15:06:44,427 - INFO - Number of parsed logs: 8
