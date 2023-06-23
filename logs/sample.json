@@ -1,0 +1,179 @@
+[
+    {
+      "timestamp": "2023-06-01T10:30:00Z",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "208.67.222.222",
+      "event_type": "DNS Request",
+      "severity": "Information",
+      "log_message": "Requesting DNS resolution for www.example.com"
+    },
+    {
+      "timestamp": "2023-06-01T10:30:01Z",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "208.67.222.222",
+      "event_type": "DNS Response",
+      "severity": "Information",
+      "log_message": "Received DNS response for www.example.com (IP: 203.0.113.10)"
+    },
+    {
+      "timestamp": "2023-06-01T10:31:15Z",
+      "source_ip": "192.168.1.101",
+      "destination_ip": "192.168.1.100",
+      "event_type": "HTTP Request",
+      "severity": "Information",
+      "log_message": "Sending HTTP GET request to www.example.com"
+    },
+    {
+      "timestamp": "2023-06-01T10:31:16Z",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.101",
+      "event_type": "HTTP Response",
+      "severity": "Information",
+      "log_message": "Received HTTP 200 OK response from www.example.com"
+    },
+    {
+      "timestamp": "2023-06-01T10:32:30Z",
+      "source_ip": "192.168.1.102",
+      "destination_ip": "192.168.1.100",
+      "event_type": "SSH Connection",
+      "severity": "Information",
+      "log_message": "Establishing SSH connection to 192.168.1.100"
+    },
+    {
+      "timestamp": "2023-06-01T10:32:32Z",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.102",
+      "event_type": "SSH Connection",
+      "severity": "Information",
+      "log_message": "SSH connection from 192.168.1.102 successfully established"
+    },
+    {
+      "timestamp": "2023-06-01T10:35:45Z",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.105",
+      "event_type": "File Transfer",
+      "severity": "Information",
+      "log_message": "Transferring file document.txt to 192.168.1.105"
+    },
+    {
+      "timestamp": "2023-06-01T10:35:46Z",
+      "source_ip": "192.168.1.105",
+      "destination_ip": "192.168.1.100",
+      "event_type": "File Transfer",
+      "severity": "Information",
+      "log_message": "File document.txt received from 192.168.1.100"
+    },
+    {
+      "timestamp": "2023-06-01T10:40:00Z",
+      "source_ip": "192.168.1.103",
+      "destination_ip": "192.168.1.100",
+      "event_type": "Port Scan",
+      "severity": "Critical",
+      "log_message": "Detected port scan from 192.168.1.103"
+    },
+    {
+      "timestamp": "2023-06-01T10:40:02Z",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.103",
+      "event_type": "Port Scan Response",
+      "severity": "Information",
+      "log_message": "Blocked port scan response to 192.168.1.103"
+    },
+    {
+      "timestamp": "2023-06-02T09:15:00Z",
+      "source_ip": "192.168.1.104",
+      "destination_ip": "208.67.222.222",
+      "event_type": "DNS Request",
+      "severity": "Information",
+      "log_message": "Requesting DNS resolution for mail.example.com"
+    },
+    {
+      "timestamp": "2023-06-02T09:15:01Z",
+      "source_ip": "192.168.1.104",
+      "destination_ip": "208.67.222.222",
+      "event_type": "DNS Response",
+      "severity": "Information",
+      "log_message": "Received DNS response for mail.example.com (IP: 203.0.113.20)"
+    },
+    {
+      "timestamp": "2023-06-02T09:16:30Z",
+      "source_ip": "192.168.1.105",
+      "destination_ip": "192.168.1.100",
+      "event_type": "HTTP Request",
+      "severity": "Information",
+      "log_message": "Sending HTTP POST request to api.example.com"
+    },
+    {
+      "timestamp": "2023-06-02T09:16:32Z",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.105",
+      "event_type": "HTTP Response",
+      "severity": "Information",
+      "log_message": "Received HTTP 201 Created response from api.example.com"
+    },
+    {
+      "timestamp": "2023-06-02T09:18:45Z",
+      "source_ip": "192.168.1.102",
+      "destination_ip": "192.168.1.100",
+      "event_type": "SSH Connection",
+      "severity": "Information",
+      "log_message": "Establishing SSH connection to 192.168.1.100"
+    },
+    {
+      "timestamp": "2023-06-02T09:18:48Z",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.102",
+      "event_type": "SSH Connection",
+      "severity": "Information",
+      "log_message": "SSH connection from 192.168.1.102 successfully established"
+    },
+    {
+      "timestamp": "2023-06-02T09:20:15Z",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.106",
+      "event_type": "File Transfer",
+      "severity": "Low",
+      "log_message": "Transferring file backup.zip to 192.168.1.106"
+    },
+    {
+      "timestamp": "2023-06-02T09:20:17Z",
+      "source_ip": "192.168.1.106",
+      "destination_ip": "192.168.1.100",
+      "event_type": "File Transfer",
+      "severity": "Low",
+      "log_message": "File backup.zip received from 192.168.1.100"
+    },
+    {
+      "timestamp": "2023-06-02T09:25:00Z",
+      "source_ip": "192.168.1.103",
+      "destination_ip": "192.168.1.100",
+      "event_type": "Port Scan",
+      "severity": "Warning",
+      "log_message": "Detected port scan from 192.168.1.103"
+    },
+    {
+      "timestamp": "2023-06-02T09:25:02Z",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.103",
+      "event_type": "Port Scan Response",
+      "severity": "Information",
+      "log_message": "Blocked port scan response to 192.168.1.103"
+    },
+    {
+      "timestamp": "2023-06-02T09:26:30Z",
+      "source_ip": "192.168.1.101",
+      "destination_ip": "192.168.1.100",
+      "event_type": "HTTP Request",
+      "severity": "High",
+      "log_message": "Sending HTTP GET request to api.example.com"
+    },
+    {
+      "timestamp": "2023-06-02T09:26:31Z",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.101",
+      "event_type": "HTTP Response",
+      "severity": "High",
+      "log_message": "Received HTTP 200 OK response from api.example.com"
+    }
+  ]
+  
