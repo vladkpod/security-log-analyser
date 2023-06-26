@@ -1,4 +1,4 @@
-# Security Log Analyzer
+# Security Log Analyser
 
 This project is a security log analyzer that parses and analyzes log files in JSON format. It provides functions to filter logs, aggregate logs based on specified attributes, calculate counts and error rates, and visualize log data.
 
